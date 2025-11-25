@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6484AA902ED606920091B6CF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6484AA8F2ED606920091B6CF /* FirebaseCore */; };
+		6484AA922ED606920091B6CF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6484AA912ED606920091B6CF /* FirebaseDatabase */; };
+		6484AA942ED606920091B6CF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6484AA932ED606920091B6CF /* FirebaseMessaging */; };
+		6484AA972ED606C70091B6CF /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 6484AA962ED606C70091B6CF /* AppsFlyerLib */; };
+		6484AA9A2ED606E60091B6CF /* AdServicesTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AA992ED606E60091B6CF /* AdServicesTokenProvider.swift */; };
+		6484AA9C2ED606EB0091B6CF /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AA9B2ED606EB0091B6CF /* CustomWebView.swift */; };
+		6484AA9E2ED606F10091B6CF /* FirebaseLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AA9D2ED606F10091B6CF /* FirebaseLogger.swift */; };
+		6484AAA02ED606F60091B6CF /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AA9F2ED606F60091B6CF /* LaunchViewController.swift */; };
+		6484AAA22ED606FC0091B6CF /* StartGateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AAA12ED606FC0091B6CF /* StartGateService.swift */; };
+		6484AAA42ED607050091B6CF /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AAA32ED607050091B6CF /* TokenStore.swift */; };
+		6484AAA62ED608D20091B6CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6484AAA52ED608D20091B6CF /* GoogleService-Info.plist */; };
 		649D355C2EB8E4C000B31888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D35522EB8E4C000B31888 /* AppDelegate.swift */; };
 		649D355D2EB8E4C000B31888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D35592EB8E4C000B31888 /* SceneDelegate.swift */; };
 		649D355E2EB8E4C000B31888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D355A2EB8E4C000B31888 /* ViewController.swift */; };
@@ -53,6 +64,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6484AA992ED606E60091B6CF /* AdServicesTokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdServicesTokenProvider.swift; sourceTree = "<group>"; };
+		6484AA9B2ED606EB0091B6CF /* CustomWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
+		6484AA9D2ED606F10091B6CF /* FirebaseLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLogger.swift; sourceTree = "<group>"; };
+		6484AA9F2ED606F60091B6CF /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		6484AAA12ED606FC0091B6CF /* StartGateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGateService.swift; sourceTree = "<group>"; };
+		6484AAA32ED607050091B6CF /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		6484AAA52ED608D20091B6CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6484AAA72ED608E70091B6CF /* HomeFixApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeFixApp.entitlements; sourceTree = "<group>"; };
 		649D353A2EB8E4AE00B31888 /* HomeFixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeFixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649D35522EB8E4C000B31888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		649D35532EB8E4C000B31888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6484AA942ED606920091B6CF /* FirebaseMessaging in Frameworks */,
+				6484AA972ED606C70091B6CF /* AppsFlyerLib in Frameworks */,
+				6484AA922ED606920091B6CF /* FirebaseDatabase in Frameworks */,
+				6484AA902ED606920091B6CF /* FirebaseCore in Frameworks */,
 				649D35672EB8EDC200B31888 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +119,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6484AA982ED606D00091B6CF /* A */ = {
+			isa = PBXGroup;
+			children = (
+				6484AA992ED606E60091B6CF /* AdServicesTokenProvider.swift */,
+				6484AA9B2ED606EB0091B6CF /* CustomWebView.swift */,
+				6484AA9D2ED606F10091B6CF /* FirebaseLogger.swift */,
+				6484AA9F2ED606F60091B6CF /* LaunchViewController.swift */,
+				6484AAA12ED606FC0091B6CF /* StartGateService.swift */,
+				6484AAA32ED607050091B6CF /* TokenStore.swift */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
 		649D35312EB8E4AE00B31888 = {
 			isa = PBXGroup;
 			children = (
@@ -115,12 +151,14 @@
 		649D355B2EB8E4C000B31888 /* HomeFixApp */ = {
 			isa = PBXGroup;
 			children = (
+				6484AAA72ED608E70091B6CF /* HomeFixApp.entitlements */,
 				649D35642EB8E4CC00B31888 /* MAIN */,
 				649D35632EB8E4C700B31888 /* INIT */,
 				649D35532EB8E4C000B31888 /* Assets.xcassets */,
 				649D35542EB8E4C000B31888 /* Info.plist */,
 				649D35562EB8E4C000B31888 /* LaunchScreen.storyboard */,
 				649D35582EB8E4C000B31888 /* Main.storyboard */,
+				6484AAA52ED608D20091B6CF /* GoogleService-Info.plist */,
 			);
 			path = HomeFixApp;
 			sourceTree = "<group>";
@@ -138,6 +176,7 @@
 		649D35642EB8E4CC00B31888 /* MAIN */ = {
 			isa = PBXGroup;
 			children = (
+				6484AA982ED606D00091B6CF /* A */,
 				64E3DCB02EB91250003F6CB7 /* Color.swift */,
 				64E3DCB22EB912F7003F6CB7 /* MainTabView.swift */,
 				64E3DCB42EB913EA003F6CB7 /* AppEnums.swift */,
@@ -182,6 +221,10 @@
 			name = HomeFixApp;
 			packageProductDependencies = (
 				649D35662EB8EDC200B31888 /* RealmSwift */,
+				6484AA8F2ED606920091B6CF /* FirebaseCore */,
+				6484AA912ED606920091B6CF /* FirebaseDatabase */,
+				6484AA932ED606920091B6CF /* FirebaseMessaging */,
+				6484AA962ED606C70091B6CF /* AppsFlyerLib */,
 			);
 			productName = HomeFixApp;
 			productReference = 649D353A2EB8E4AE00B31888 /* HomeFixApp.app */;
@@ -213,6 +256,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				649D35652EB8EDC200B31888 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				6484AA8E2ED606920091B6CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6484AA952ED606C70091B6CF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 649D353B2EB8E4AE00B31888 /* Products */;
@@ -230,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				649D355F2EB8E4C000B31888 /* Assets.xcassets in Resources */,
+				6484AAA62ED608D20091B6CF /* GoogleService-Info.plist in Resources */,
 				649D35612EB8E4C000B31888 /* LaunchScreen.storyboard in Resources */,
 				649D35622EB8E4C000B31888 /* Main.storyboard in Resources */,
 			);
@@ -247,10 +293,14 @@
 				64E3DCB72EB913FD003F6CB7 /* RealmModels.swift in Sources */,
 				64E3DCC52EB91BA2003F6CB7 /* ProjectsViewModel.swift in Sources */,
 				64E3DCBB2EB91641003F6CB7 /* GeminiService.swift in Sources */,
+				6484AAA42ED607050091B6CF /* TokenStore.swift in Sources */,
+				6484AA9A2ED606E60091B6CF /* AdServicesTokenProvider.swift in Sources */,
 				64E3DCD52EB91E6D003F6CB7 /* ToolRowView.swift in Sources */,
 				64E3DCD92EB925B1003F6CB7 /* Onboarding.swift in Sources */,
 				64E3DCD12EB91D32003F6CB7 /* SettingsView.swift in Sources */,
+				6484AA9E2ED606F10091B6CF /* FirebaseLogger.swift in Sources */,
 				649D355C2EB8E4C000B31888 /* AppDelegate.swift in Sources */,
+				6484AA9C2ED606EB0091B6CF /* CustomWebView.swift in Sources */,
 				64E3DCBD2EB9164F003F6CB7 /* HomeViewModel.swift in Sources */,
 				64E3DCD72EB921EF003F6CB7 /* DailyTip.swift in Sources */,
 				64E3DCC92EB91BC6003F6CB7 /* ProjectDetailView.swift in Sources */,
@@ -258,10 +308,12 @@
 				64E3DCB12EB91250003F6CB7 /* Color.swift in Sources */,
 				64E3DCBF2EB9165B003F6CB7 /* AnalysisResultView.swift in Sources */,
 				649D355D2EB8E4C000B31888 /* SceneDelegate.swift in Sources */,
+				6484AAA02ED606F60091B6CF /* LaunchViewController.swift in Sources */,
 				649D355E2EB8E4C000B31888 /* ViewController.swift in Sources */,
 				64E3DCC12EB91666003F6CB7 /* HomeView.swift in Sources */,
 				64E3DCB52EB913EA003F6CB7 /* AppEnums.swift in Sources */,
 				64E3DCD32EB91E5F003F6CB7 /* AddToolView.swift in Sources */,
+				6484AAA22ED606FC0091B6CF /* StartGateService.swift in Sources */,
 				64E3DCCF2EB91D25003F6CB7 /* MyStuffView.swift in Sources */,
 				64E3DCB32EB912F7003F6CB7 /* MainTabView.swift in Sources */,
 				64E3DCCB2EB91BD7003F6CB7 /* ProjectsView.swift in Sources */,
@@ -296,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeFixApp/HomeFixApp.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -303,9 +356,12 @@
 				INFOPLIST_FILE = HomeFixApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fixit Vision";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of household problems.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app needs access to your microphone so you can save your audio.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Photo Library write access is required to save media.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library access is required to pick media.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking is used to deliver a better, more relevant experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -314,7 +370,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.homeheroapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -333,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeFixApp/HomeFixApp.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -340,9 +397,12 @@
 				INFOPLIST_FILE = HomeFixApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fixit Vision";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of household problems.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app needs access to your microphone so you can save your audio.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Photo Library write access is required to save media.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library access is required to pick media.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking is used to deliver a better, more relevant experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -351,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.homeheroapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -510,6 +570,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6484AA8E2ED606920091B6CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		6484AA952ED606C70091B6CF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
 		649D35652EB8EDC200B31888 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
@@ -521,6 +597,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6484AA8F2ED606920091B6CF /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6484AA8E2ED606920091B6CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		6484AA912ED606920091B6CF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6484AA8E2ED606920091B6CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		6484AA932ED606920091B6CF /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6484AA8E2ED606920091B6CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		6484AA962ED606C70091B6CF /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6484AA952ED606C70091B6CF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
 		649D35662EB8EDC200B31888 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 649D35652EB8EDC200B31888 /* XCRemoteSwiftPackageReference "realm-swift" */;
