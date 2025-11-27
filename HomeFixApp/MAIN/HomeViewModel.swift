@@ -3,6 +3,7 @@ import SwiftUI
 import PhotosUI
 import RealmSwift
 
+@available(iOS 16.0, *)
 @MainActor
 class HomeViewModel: ObservableObject {
     @Published var isProcessing = false

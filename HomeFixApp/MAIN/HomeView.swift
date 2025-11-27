@@ -2,6 +2,7 @@ import SwiftUI
 import PhotosUI
 import RealmSwift
 
+@available(iOS 16.0, *)
 struct HomeView: View {
     @StateObject private var viewModel = HomeViewModel()
     
@@ -241,6 +242,4 @@ struct ProjectCardView: View {
     }
 }
 
-#Preview {
-    HomeView()
-}
+

@@ -2,6 +2,7 @@ import SwiftUI
 import RealmSwift
 import PhotosUI
 
+@available(iOS 16.0, *)
 struct AddToolView: View {
     @Environment(\.dismiss) var dismiss
     

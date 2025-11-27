@@ -1,6 +1,7 @@
 import SwiftUI
 import RealmSwift
 
+@available(iOS 16.0, *)
 struct MyStuffView: View {
     @ObservedResults(UserTool.self, sortDescriptor: SortDescriptor(keyPath: "name", ascending: true)) var tools
     
@@ -53,8 +54,4 @@ struct MyStuffView: View {
         }
         .padding()
     }
-}
-
-#Preview {
-    MyStuffView()
 }

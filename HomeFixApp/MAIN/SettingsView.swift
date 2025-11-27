@@ -2,6 +2,7 @@ import SwiftUI
 import StoreKit
 import RealmSwift
 
+@available(iOS 16.0, *)
 struct SettingsView: View {
     @State private var isShowingDeleteAlert = false
 
@@ -96,8 +97,4 @@ struct SettingsView: View {
            windowScene.windows.first?.rootViewController?.present(activityController, animated: true, completion: nil)
         }
     }
-}
-
-#Preview {
-    SettingsView()
 }

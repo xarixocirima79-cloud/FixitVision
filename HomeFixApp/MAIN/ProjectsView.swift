@@ -1,6 +1,7 @@
 import SwiftUI
 import RealmSwift
 
+@available(iOS 16.0, *)
 struct ProjectsView: View {
     @StateObject private var viewModel = ProjectsViewModel()
     @State private var viewUpdater = UUID()
@@ -75,8 +76,4 @@ struct ProjectsView: View {
             realm.delete(projectToDelete)
         }
     }
-}
-
-#Preview {
-    ProjectsView()
 }

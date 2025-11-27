@@ -1,6 +1,7 @@
 import SwiftUI
 import RealmSwift
 
+@available(iOS 16.0, *)
 struct AnalysisResultView: View {
     @Environment(\.dismiss) var dismiss
     let project: RepairProject
